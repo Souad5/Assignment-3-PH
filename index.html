@@ -29,6 +29,11 @@
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Assignment 3</title>
+    <style>
+        color{
+            
+        }
+    </style>
 </head>
 
 <body>
@@ -63,7 +68,7 @@
                   <a class=""><i class="fa-regular fa-bell hidden lg:flex"></i></a> &nbsp; &nbsp;
                   <a class=""><i class="fa-solid fa-magnifying-glass hidden lg:flex"></i></a> &nbsp;&nbsp;
                   <a class="btn btn-outline border-yellow-300 hidden lg:flex ">Login</a> &nbsp;
-                  <a class="btn  btn-warning h-8 hidden lg:flex">Resister</a>&nbsp;
+                  <a class="btn  bg-yellow-400 h-8 hidden lg:flex">Resister</a>&nbsp;
                   <a><i class="fa-solid fa-bars lg:hidden w-6"></i></a>
                 </div>
               </div>
@@ -73,25 +78,56 @@
     <main>
         <section>
             <div class=" mx-auto max-w-screen-lg lg:mt-24 mt-6">
-                <div class="lg:absolute " >
+                <div class="lg:absolute pl-5" >
                     <h1 class="font-semibold text-2xl lg:text-5xl adlam mb-4">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h1>
                 <p class="sora text-slate-600">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="mt-6 p-3 w-36 rounded-xl bg-yellow-300">Find a pet</button>
+                <button class="mt-6 p-3 w-36 rounded-xl bg-yellow-400 sora">Find a pet</button>
                 </div >
                 <div><img src="./c1-assets/cat-big.png" alt="">
                 </div>
             </div>
             </section>
+            <!-- Challenge Part -->
+            <marquee behavior="" direction="left" class="text-4xl">Challenge Animation Section Added</marquee>
+            <div class="flex justify-center items-center h-screen">
+                <div class="bg-red-300 p-48 rounded-full animate-bounce"><img src="./c1-assets/cat-cartoon.png" alt=""></div>
+            </div>
+            
             <section class="mx-auto max-w-screen-lg lg:mt-32 mt-16 mb-12">
-                <h1 class="font-bold text-2xl">Browse By Categories</h1>
-                <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <h1 class="font-bold text-2xl pl-5">Browse By Categories</h1>
+                <div class="mt-12 grid grid-cols-2 p-6 lg:grid-cols-6 gap-4 lg:items-center">
+                    <div class="bg-amber-200 pt-8 px-12 rounded-xl lg:h-64 flex flex-col justify-center items-center">
+                        <img class="border border-white rounded-full p-3 bg-slate-50" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon">
+                        <h2 class="text-center font-bold">Dog</h2>
+                        <p class="text-center mb-6">3 Items</p>
+                    </div>
+                    <div class="bg-amber-200 pt-8 px-12 rounded-xl lg:h-64 flex flex-col justify-center items-center">
+                        <img class="border border-white rounded-full p-3 bg-slate-50" src="./c1-assets/fish-cartoon.png" alt="dog-cartoon">
+                        <h2 class="text-center font-bold">Fish</h2>
+                        <p class="text-center mb-6">3 Items</p>
+                    </div>
+                    <div class="bg-amber-200 pt-8 px-12 rounded-xl lg:h-64 flex flex-col justify-center items-center">
+                        <img class="border border-white rounded-full p-3 bg-slate-50" src="./c1-assets/cat-cartoon.png" alt="dog-cartoon">
+                        <h2 class="text-center font-bold">Cat</h2>
+                        <p class="text-center mb-6">3 Items</p>
+                    </div>
+                    <div class="bg-amber-200 pt-8 px-12 rounded-xl lg:h-64 flex flex-col justify-center items-center">
+                        <img class="border border-white rounded-full p-3 bg-slate-50" src="./c1-assets/bird-cartoon.png" alt="dog-cartoon">
+                        <h2 class="text-center font-bold">Bird</h2>
+                        <p class="text-center mb-6">3 Items</p>
+                    </div>
+                    <div class="bg-amber-200 pt-8 px-12 rounded-xl lg:h-64 flex flex-col justify-center items-center">
+                        <img class="border border-white rounded-full p-3 bg-slate-50" src="./c1-assets/mouse-cartoon.png" alt="dog-cartoon">
+                        <h2 class="text-center font-bold inline-block">Small Pet</h2>
+                        <p class="text-center mb-6">3 Items</p>
+                    </div>
+                    <div class="bg-amber-200 pt-8 px-12 rounded-xl lg:h-64 flex flex-col justify-center items-center">
+                        <img class="border border-white rounded-full p-3 bg-slate-50" src="./c1-assets/rabbit-cartoon.png" alt="dog-cartoon">
+                        <h2 class="text-center font-bold">Rabbit</h2>
+                        <p class="text-center mb-6">3 Items</p>
+                    </div>
                 </div>
+                
             </section>
     </main>
     <footer>
