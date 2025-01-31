@@ -9,4 +9,9 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+  .bg-gra1{
+    background-image: linear-gradient(to right, #FFF9F4, #F9DF8A);
+  }
+  .bg-gra{
+    background-image: linear-gradient(to right, #F8CCFB, #ACD2FD);
+  }
